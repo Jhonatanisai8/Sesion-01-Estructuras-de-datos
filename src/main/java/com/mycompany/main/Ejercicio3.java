@@ -24,19 +24,22 @@ public class Ejercicio3 {
                 JOptionPane.showMessageDialog(null, """
                                                     Pension Inicial S/.550
                                                     Pension Por tener Promedio:  """ + promedio + "  Nueva pension: " + nuevaPension(550, promedio));
+
                 break;
             case 'B':
                 promedio = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingresa tu promedio: "));
                 JOptionPane.showMessageDialog(null, """
                                                     Pension Inicial S/.500
                                                     Pension Por tener Promedio:  """ + promedio + "  Nueva pension: " + nuevaPension(500, promedio));
+
                 break;
 
             case 'C':
                 promedio = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingresa tu promedio: "));
                 JOptionPane.showMessageDialog(null, """
-                                                    Pension Inicial S/.400
+                                                    Pension Inicial S/.460
                                                     Pension Por tener Promedio: """ + promedio + " Nueva pension: " + nuevaPension(460, promedio));
+
                 break;
             case 'D':
                 promedio = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingresa tu promedio: "));
